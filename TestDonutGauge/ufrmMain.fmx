@@ -1,0 +1,47 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Test Donut Gauge'
+  ClientHeight = 288
+  ClientWidth = 404
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  inline fraDonutGauge1: TfraDonutGauge
+    Position.X = 168.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 1
+    Text = '0'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 2
+    Text = '500'
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 3
+    Text = '1,280'
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 160.000000000000000000
+    TabOrder = 4
+    Text = '2,000'
+    OnClick = Button4Click
+  end
+end

@@ -1,0 +1,42 @@
+object fraDonutGauge: TfraDonutGauge
+  Size.Width = 200.000000000000000000
+  Size.Height = 200.000000000000000000
+  Size.PlatformDefault = False
+  object Arc1: TArc
+    Align = Client
+    Margins.Left = 1.000000000000000000
+    Margins.Top = 1.000000000000000000
+    Margins.Right = 1.000000000000000000
+    Size.Width = 198.000000000000000000
+    Size.Height = 199.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claBlue
+    Stroke.Thickness = 15.000000000000000000
+    Stroke.Cap = Round
+    StartAngle = 135.000000000000000000
+    EndAngle = 270.000000000000000000
+  end
+  object Arc2: TArc
+    Align = Client
+    Size.Width = 200.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claLightgray
+    Stroke.Thickness = 17.000000000000000000
+    Stroke.Cap = Round
+    StartAngle = 135.000000000000000000
+    EndAngle = 5.000000000000000000
+  end
+  object Label1: TLabel
+    Align = Client
+    StyledSettings = [Style, FontColor]
+    Size.Width = 200.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Arial'
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = '0'
+    TabOrder = 2
+  end
+end
